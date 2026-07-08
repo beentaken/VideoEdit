@@ -8,7 +8,7 @@ exchange/admin
 Exchange/Administrator
 Administrator@exchange.lab
 Administration 
-1loveWINDOWS
+1loveWINDOWS!
 
 
 New-Mailbox -Name "ewsuser" `
