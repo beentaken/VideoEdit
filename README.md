@@ -1,3 +1,24 @@
+
+
+
+
+https://192.168.56.101/owa
+https://192.168.56.101/EWS/Exchange.asmx
+exchange/admin
+Exchange/Administrator
+Administrator@exchange.lab
+Administration 
+1loveWINDOWS
+
+
+
+
+
+
+
+
+
+
 # VideoEdit
 
 
