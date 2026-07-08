@@ -11,6 +11,10 @@ Administration
 1loveWINDOWS
 
 
+New-Mailbox -Name "ewsuser" `
+    -UserPrincipalName ewsuser@exchange.lab `
+    -Password (ConvertTo-SecureString "Password123!" -AsPlainText -Force)
+
 
 
 
