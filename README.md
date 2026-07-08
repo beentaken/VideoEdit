@@ -2,19 +2,19 @@
 
 
 
-https://192.168.56.101/owa
-https://192.168.56.101/EWS/Exchange.asmx
+https://xxxxxxxxxx/owa
+https://xxxxxxxxxxxxx/EWS/Exchange.asmx
 exchange/admin
 Exchange/Administrator
 Administrator@exchange.lab
 Administration 
-1loveWINDOWS!
+xxxxxxxxxxxxxxx
 
 Get-Mailbox ewsuser | Format-List Name,Alias,PrimarySmtpAddress,UserPrincipalName
 
 New-Mailbox -Name "ewsuser" `
     -UserPrincipalName ewsuser@exchange.lab `
-    -Password (ConvertTo-SecureString "Password123!" -AsPlainText -Force)
+    -Password (ConvertTo-SecureString "xxxxx" -AsPlainText -Force)
 
 
 
