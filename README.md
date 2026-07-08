@@ -11,6 +11,7 @@ Administration
 1loveWINDOWS!
 
 Get-Mailbox ewsuser | Format-List Name,Alias,PrimarySmtpAddress,UserPrincipalName
+
 New-Mailbox -Name "ewsuser" `
     -UserPrincipalName ewsuser@exchange.lab `
     -Password (ConvertTo-SecureString "Password123!" -AsPlainText -Force)
